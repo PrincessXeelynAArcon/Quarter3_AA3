@@ -1,0 +1,179 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif; 
+}
+
+body {
+    background: linear-gradient(to right, #ffefea, #ffd6d6);
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background: #ff758c;
+    padding: 15px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+header h1 {
+    color: white;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background: white;
+    color: #ff758c;
+}
+
+main {
+    padding: 40px;
+}
+
+section {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.featured-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    display: inline-block; 
+    vertical-align: middle; 
+    margin-right: 10px; 
+}
+
+.shape-button {
+    display: inline-block; 
+    vertical-align: middle; 
+    padding: 8px 16px;
+    font-size: 14px; 
+}
+
+/* Quiz Section */
+.quiz-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    text-align: left;
+}
+
+.quiz-container h2 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.quiz-container ol {
+    padding-left: 0;
+    list-style: none;
+}
+
+.quiz-container li {
+    margin-bottom: 20px;
+}
+
+.quiz-container .question {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Align options properly */
+.quiz-container .options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.quiz-container label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+/* Fix radio buttons */
+.quiz-container input[type="radio"] {
+    margin-right: 10px;
+}
+
+
+.contact-input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#contact-submit {
+    width: 100%;
+    max-width: 200px;
+    background: #ff758c;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+}
+
+#contact-submit:hover {
+    background: #ff5775;
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: #ff758c;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
